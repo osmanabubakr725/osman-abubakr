@@ -20,3 +20,6 @@ var A = document.getElementById('anchor-a'),
         d.innerHTML = "ACCEPT..";
         
     };
+    k{
+        jkjpokp;
+    }
