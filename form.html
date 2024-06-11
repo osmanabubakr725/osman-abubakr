@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .form{
+            background-color: whitesmoke;
+            width: 600px;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="form">
+
+    <form method="get" action="#">
+    
+        <p>
+        <fieldset>
+            <legend>course Details</legend>
+                        <label>
+                        Course Name:
+                        <input name="name" type="text" size="10" list="subject">
+                        <datalist id="subject">
+                            <option>html</option>
+                            <option>java script</option>
+                            <option>php</option>
+                        </datalist>
+                        </label>
+            <br><br>
+            
+            <strong>Course Level:</strong>
+                        <label>
+                            junior
+                            <input name="name" type="radio" value="junior"></label>
+                            <label>
+                                senior
+                            <input name="name" type="radio" value="junior" required></label>
+            </fieldset>
+            </p>
+
+            
+    
+    
+        <p>
+            <fieldset>
+                            <legend>homework Details</legend>
+                            <label>
+                            homework number:
+                            <select name="homework">
+                                <option>homework#1</option>
+                                <option>homework#2</option>
+                            </select>
+                            </label>
+        
+        <br><br>
+        
+                                <label>
+                                    homework includes?:
+                                    <select name="homework">
+                                        <option>html</option>
+                                        <option>CSS</option>
+                                        <option selected>java script</option>
+                                        <option>php</option>
+                                    </select>
+                                </label>
+            </fieldset>
+        <p>
+            <fieldset>
+                                <legend>file sumission</legend>
+                                <label>file to  be uploaded :
+                                <input type="file" >
+                                </label>
+        <br><br>
+                                <label>contact Email :
+                                <input type="email"  required>
+                                </label>
+        <br><br>
+                                <input type="submit" value="send">
+                                <input type="reset" value="clear">
+        </fieldset>
+    </p>
+
+</form>
+</div>
+</body>
+</html>
